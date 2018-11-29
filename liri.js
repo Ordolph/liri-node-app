@@ -78,7 +78,6 @@ let movieThis = function () {
         name: "movie"
     }]).then(result => {
         var movie = result.movie.replace(/\s/g, "+");
-        console.log(movie)
 
         var url = "http://www.omdbapi.com/?apikey=a3f03ecf&t=" + movie;
 
